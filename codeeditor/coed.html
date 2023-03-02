@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live CodeEditor</title>
+    <link rel="stylesheet" href="codeeditor.css">
+    <script type="text/javascript" src="codeeditor.js" ></script>
+</head>
+<body>
+<div class="container">
+<h2>LIVE CODE EDITOR</h2>
+<a >HTML</a>
+<a >CSS</a>
+<a >JAVASCRIPT</a>
+</div>
+<div class="box">
+ <div class="side1">
+<h3>HTML</h3>
+<textarea id="html" onkeyup="run()"></textarea>
+<h3>CSS</h3>
+<textarea id="css" onkeyup="run()"></textarea>
+<h3>JAVASCRIPT</h3>
+<textarea id="js" onkeyup="run()"></textarea>
+ </div>
+   <div class="side2">
+    <h3>OUTPUT</h3>
+<iframe id="out"></iframe>
+    </div>
+</div>
+
+
+</body>
+</html>

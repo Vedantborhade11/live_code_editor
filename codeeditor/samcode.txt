@@ -1,0 +1,14 @@
+<h1 >vedant</h1>
+<button onclick="master(this)">CLICK ME!</button>
+
+
+
+h1{
+font-size:45px;
+color:red;
+}
+
+
+function master(x){
+x.style.background="green";
+}
